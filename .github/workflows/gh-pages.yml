@@ -3,6 +3,11 @@ on:
   workflow_dispatch:
   repository_dispatch:
     types: [web-page-trigger]
+
+permissions:
+  contents: read
+  actions: write
+  
 jobs:
   build:
     runs-on: ubuntu-latest

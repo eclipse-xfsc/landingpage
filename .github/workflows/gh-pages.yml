@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: gh-pages
+          ref: update-gh-links
       - name: Run a multi-line script
         run: |
           rm -rf ./*

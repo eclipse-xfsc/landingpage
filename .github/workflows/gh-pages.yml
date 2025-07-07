@@ -9,11 +9,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: gh-pages
+          ref: update-gh-links
       - name: Run a multi-line script
         run: |
           rm -rf ./*
-          git clone -b xfsc-LandingPage https://gitlab.eclipse.org/eclipse/xfsc/xfsc-website.git page
+          git clone -b xfsc-LandingPage https://github.com/Jessia2597/landingpage.git page
           cd page
           yarn install
           yarn build

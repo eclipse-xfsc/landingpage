@@ -9,11 +9,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: update-gh-links
+          ref: xfsc-page
       - name: Run a multi-line script
         run: |
           rm -rf ./*
-          git clone -b update-gh-links https://github.com/Jessia2597/landingpage.git page
+          git clone -b xfsc-page https://github.com/Jessia2597/landingpage.git page
           cd page
           yarn install
           yarn build

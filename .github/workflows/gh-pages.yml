@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: xfsc-Page
+          ref: gh-pages
       - name: Run a multi-line script
         run: |
           rm -rf ./*

@@ -13,7 +13,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           rm -rf ./*
-          git clone -b xfsc-LandingPage https://github.com/Jessia2597/landingpage.git page
+          git clone -b xfsc-BuildPage https://github.com/Jessia2597/landingpage.git page
           cd page
           yarn install
           yarn build

@@ -14,9 +14,7 @@ jobs:
         run: |
           rm -rf ./*
           git remote set-url origin https://github.com/Jessia2597/landingpage.git
-          git branch -a
           git clone -b xfsc-BuildPage https://github.com/Jessia2597/landingpage.git page
-          git pull origin xfsc-BuildPage
           cd page
           git remote -v
           yarn install

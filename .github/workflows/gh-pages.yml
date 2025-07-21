@@ -13,8 +13,8 @@ jobs:
       - name: Run a multi-line script
         run: |
           rm -rf ./*
-          git remote set-url origin https://github.com/Jessia2597/landingpage.git
-          git clone -b xfsc-BuildPage https://github.com/Jessia2597/landingpage.git page
+          git remote set-url origin https://github.com/eclipse-xfsc/landingpage.git
+          git clone -b xfsc-BuildPage https://github.com/eclipse-xfsc/landingpage.git page
           cd page
           git remote -v
           yarn install
@@ -24,7 +24,7 @@ jobs:
           rm -rf ./page
           git config --global user.name 'Page build Bot' 
           git config --global user.email 'pagebuildbot@memeti.com'
-          git remote set-url origin https://github.com/Jessia2597/landingpage.git
+          git remote set-url origin https://github.com/eclipse-xfsc/landingpage.git
           git add -A .
           git commit -a -m "Bot update from eclipse gitlab"
           git push origin update-gh-links

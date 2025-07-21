@@ -18,7 +18,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           rm -rf ./*
-          git clone -b xfsc-LandingPage https://github.com/eclipse-xfsc/landingpage.git page
+          git clone -b xfsc-LandingPage https://github.com/eclipse-xfsc/landingpage.git pages
           cd page
           yarn install
           yarn build

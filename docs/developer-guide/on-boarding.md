@@ -14,7 +14,7 @@ This section provides information and links to relevant resources before you sta
 - Sign the [Eclipse Contributor Agreement (ECA)](https://www.eclipse.org/legal/ECA.php)
 - Add your **GitLab ID** to your Eclipse profile (Section: Social Media Links)  
 - Subscribe to the Eclipse [XFSC Mailing List:](https://projects.eclipse.org/projects/technology.xfsc/contact) 
-- Sending an email to the project’s mailing list or lauresha.memeti@eco.de to ask for contributors role.
+- Sending an email to the project’s mailing list or lauresha.toska@eco.de to ask for contributors role.
 - Get familiar with the [Eclipse Foundation Project Handbook](https://www.eclipse.org/projects/handbook/)
 
 ### Dev Mailinglist​: 

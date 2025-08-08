@@ -8,7 +8,7 @@ In Eclipse projects there are several roles that are important to know. We show 
 
 ### Contributor
 
-Anyone with an Eclipse account and a signed ECA is an Eclipse contributor. Contributors have read access. On GitLab repositories they have the read role. 
+Anyone with an Eclipse account and a signed ECA is an Eclipse contributor. Contributors have read access. On GitHub repositories they have the read role. 
 
 Eclipse XFSC Contributor List: [https://projects.eclipse.org/projects/technology.xfsc/who  ](https://projects.eclipse.org/projects/technology.xfsc/who) Committers can add new contributors to the XFSC project, see the [Handbook](https://www.eclipse.org/projects/handbook/#pmi-contributors) for details. 
 
@@ -42,7 +42,7 @@ On repositories committer have the write role. 
   - Contribute by submitting pull requests (MRs) with changes.
   - May have limited access to merge MRs, typically requiring approval from committers or maintainers.
   - Expected to follow the project's contribution guidelines.  
-  - Have the reporter role on XFSC's GitLab.
+  - Have the reporter role on XFSC's GitHub.
 
 - Committers:
 
@@ -50,7 +50,7 @@ On repositories committer have the write role. 
   - Have the authority to merge MRs directly into the repository.
   - Responsible for reviewing and maintaining the quality of contributions, managing issues and vulnerabilities, and supporting contributors.
   - May be involved in project decision-making and roadmap planning.
-  - Have the developer role on XFSC's GitLab.
+  - Have the developer role on XFSC's GitHub.
 
 ### Eclipse Project Lead
 

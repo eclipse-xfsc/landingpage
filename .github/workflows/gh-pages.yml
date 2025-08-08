@@ -14,7 +14,7 @@ jobs:
         run: |
           rm -rf ./*
           git remote set-url origin https://github.com/Jessia2597/landingpage.git
-          git clone -b xfsc-LandingPage https://github.com/Jessia2597/landingpage.git page
+          git clone -b PageBuilders https://github.com/Jessia2597/landingpage.git page
           cd page
           yarn install
           yarn build

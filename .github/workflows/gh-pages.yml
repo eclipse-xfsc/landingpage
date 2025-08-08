@@ -20,7 +20,7 @@ jobs:
       - name: Run Page Build
         run: |
           rm -rf ./*
-          git clone -b main https://github.com/eclipse-xfsc/landingpage.git page
+          git clone -b pageBuilder https://github.com/eclipse-xfsc/landingpage.git page
           cd page
           yarn install
           yarn build
